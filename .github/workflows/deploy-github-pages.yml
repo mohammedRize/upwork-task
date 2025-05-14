@@ -29,12 +29,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
-      - name: Build
+      - name: Build with base path
         run: npm run build
         
-      - name: Configure base path for GitHub Pages
+      - name: Copy 404 for client-side routing
         run: |
-          echo "<!DOCTYPE html><html><head><meta http-equiv=\"refresh\" content=\"0;url=./index.html\"></head></html>" > dist/404.html
+          cp dist/index.html dist/404.html
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
