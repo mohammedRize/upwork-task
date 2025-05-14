@@ -58,7 +58,7 @@
   }
   body {
     @apply bg-[#0f1923] text-foreground font-oxanium;
-    background-image: url('/assets/c4577ab6-5c03-4410-8239-f6f7c63b9265.png');
+    background-image: url('./assets/c4577ab6-5c03-4410-8239-f6f7c63b9265.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

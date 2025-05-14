@@ -6,14 +6,14 @@ interface SidebarProps {
 }
 
 const navItems = [
-  { src: "./assets/dashboard.svg", label: "Dashboard", alt: "dashboard" },
-  { src: "./assets/players.svg", label: "Players",   alt: "players" },
-  { src: "./assets/clubs.svg",   label: "Clubs",     alt: "clubs" },
-  { src: "./assets/federations.svg", label: "Federations", alt: "federations" },
-  { src: "./assets/tournament.svg",  label: "Tournament",  alt: "tournament" },
-  { src: "./assets/leagues.svg",     label: "League",      alt: "leagues" },
-  { src: "./assets/group-finder.svg",label: "Group finder",alt: "group-finder" },
-  { src: "./assets/games.svg",       label: "Games",       alt: "games" },
+  { src: "assets/dashboard.svg", label: "Dashboard", alt: "dashboard" },
+  { src: "assets/players.svg", label: "Players",   alt: "players" },
+  { src: "assets/clubs.svg",   label: "Clubs",     alt: "clubs" },
+  { src: "assets/federations.svg", label: "Federations", alt: "federations" },
+  { src: "assets/tournament.svg",  label: "Tournament",  alt: "tournament" },
+  { src: "assets/leagues.svg",     label: "League",      alt: "leagues" },
+  { src: "assets/group-finder.svg",label: "Group finder",alt: "group-finder" },
+  { src: "assets/games.svg",       label: "Games",       alt: "games" },
 ]
 
 const SidebarNavigation: React.FC<SidebarProps> = ({ className }) => {
@@ -60,11 +60,11 @@ const SidebarNavigation: React.FC<SidebarProps> = ({ className }) => {
       {/* Settings & Profile */}
       <div className="mt-auto flex flex-col items-center gap-4 mb-4">
         <button className="p-2 rounded-md hover:bg-[#27303A] transition">
-          <img src="./assets/settings.svg" alt="settings" className="w-6 h-6" />
+          <img src="assets/settings.svg" alt="settings" className="w-6 h-6" />
         </button>
         <div className="w-[48px] h-[48px] rounded-full border-2 border-valorant-green overflow-hidden">
           <img
-            src="./assets/profile.svg"
+            src="assets/profile.svg"
             alt="Profile"
             className="w-full h-full object-cover"
           />

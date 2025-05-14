@@ -32,6 +32,12 @@ jobs:
       - name: Build with base path
         run: npm run build
         
+      - name: Copy assets to root of dist
+        run: |
+          mkdir -p dist/assets
+          cp -r public/assets/* dist/assets/ || true
+          cp public/_redirects dist/ || true
+        
       - name: Copy 404 for client-side routing
         run: |
           cp dist/index.html dist/404.html
@@ -50,4 +56,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 
+        uses: actions/deploy-pages@v4
