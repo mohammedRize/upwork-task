@@ -9,23 +9,23 @@ const RightSidebar: React.FC<RightSidebarProps> = ({ className }) => {
   const clubs = [
     {
       name: "Angry EA Sharks",
-      img: "/assets/539c85ce-ace8-44bb-b9b0-b3d042b41f3f.png",
+      img: "assets/539c85ce-ace8-44bb-b9b0-b3d042b41f3f.png",
     },
     {
       name: "We Scale Late",
-      img: "/assets/611f607e-9a0e-492d-98b4-9fb372859118.png",
+      img: "assets/611f607e-9a0e-492d-98b4-9fb372859118.png",
     },
-    { name: "Baron Thieves", img: "/assets/baron.svg" },
+    { name: "Baron Thieves", img: "assets/baron.svg" },
   ];
   const feed = [
     {
       title: "Clutch or Kick?! INSANE Valorant Moments",
-      img: "/assets/6eb4589c-cb23-427a-ad7c-66b1c4c60c2a.png",
+      img: "assets/6eb4589c-cb23-427a-ad7c-66b1c4c60c2a.png",
       subtitle: "Jump into some of the most intense Valorant plays!",
     },
     {
       title: "Valorant | Late Night Ranked Grind",
-      img: "/assets/23c7246d-43c8-4ed5-94d0-2f5b15f1797b.png",
+      img: "assets/23c7246d-43c8-4ed5-94d0-2f5b15f1797b.png",
       subtitle: "Follow my wild comms — let's see how high we can climb today",
     },
   ];
@@ -82,7 +82,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({ className }) => {
                 <div>
                   <div className="flex items-center gap-2">
                     <h3 className="text-sm font-medium text-white">{name}</h3>
-                    <img src="/assets/flag.svg" alt="arrow-right" />
+                    <img src="assets/flag.svg" alt="arrow-right" />
                   </div>
                   <p className="text-xs text-gray-400">UTC/GMT +2</p>
                 </div>

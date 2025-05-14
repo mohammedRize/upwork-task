@@ -19,7 +19,7 @@ const ChatArea: React.FC<ChatAreaProps> = ({ className }) => {
         <MessageItem
           username="Alexandra Tillman"
           // swapped: Alexandra now has Sam's avatar
-          avatar="/assets/ec93c428-2041-4c21-967a-b9c79f171f9d.png"
+          avatar="assets/ec93c428-2041-4c21-967a-b9c79f171f9d.png"
           timestamp="05/06/2023 12:50 PM"
           message="yo anyone on for comp tonight? need 1 for full 5-stack 🔥"
           reactions={[{ type: 'heart', count: 2 }]}
@@ -27,7 +27,7 @@ const ChatArea: React.FC<ChatAreaProps> = ({ className }) => {
 
         <MessageItem
           username="Sam McDermott"
-          avatar="/assets/9592ee4b049ceabdcea066a835df23e220f3e415.png"
+          avatar="assets/9592ee4b049ceabdcea066a835df23e220f3e415.png"
           timestamp="05/06/2023 12:50 PM"
           message="depends... are we playing seriously or just for fun"
           reactions={[
@@ -38,14 +38,14 @@ const ChatArea: React.FC<ChatAreaProps> = ({ className }) => {
 
         <MessageItem
           username="Alexandra Tillman"
-          avatar="/assets/ec93c428-2041-4c21-967a-b9c79f171f9d.png"
+          avatar="assets/ec93c428-2041-4c21-967a-b9c79f171f9d.png"
           timestamp="05/06/2023 12:50 PM"
           message="serious, trying to hit plat this act 🤔"
         />
 
         <MessageItem
           username="Sam McDermott"
-          avatar="/assets/48dfd976-6767-4075-9b9f-cd6816b091c6.png"
+          avatar="assets/48dfd976-6767-4075-9b9f-cd6816b091c6.png"
           timestamp="05/06/2023 12:50 PM"
           message={
             "count me in! I'll lock Jett as usual 😎\nalso anyone seen the new bundle?? the finisher is insane 🔥"
@@ -55,14 +55,14 @@ const ChatArea: React.FC<ChatAreaProps> = ({ className }) => {
 
         <MessageItem
           username="Alexandra Tillman"
-          avatar="/assets/ec93c428-2041-4c21-967a-b9c79f171f9d.png"
+          avatar="assets/ec93c428-2041-4c21-967a-b9c79f171f9d.png"
           timestamp="05/06/2023 12:50 PM"
           message="YES the sound effects are sooo clean but 7k VP is wild 😱"
         />
 
         <MessageItem
           username="Sam McDermott"
-          avatar="/assets/48dfd976-6767-4075-9b9f-cd6816b091c6.png"
+          avatar="assets/48dfd976-6767-4075-9b9f-cd6816b091c6.png"
           timestamp="05/06/2023 12:50 PM"
           message="i'll join if I don't have to play smokes again pls 😭"
           reactions={[{ type: 'heart', count: 2 }]}
@@ -70,14 +70,14 @@ const ChatArea: React.FC<ChatAreaProps> = ({ className }) => {
 
         <MessageItem
           username="Alexandra Tillman"
-          avatar="/assets/ec93c428-2041-4c21-967a-b9c79f171f9d.png"
+          avatar="assets/ec93c428-2041-4c21-967a-b9c79f171f9d.png"
           timestamp="05/06/2023 12:50 PM"
           message="fine fine, i'll smoke 😒 just don't wall me off again like last game"
         />
 
         <MessageItem
           username="Sam McDermott"
-          avatar="/assets/48dfd976-6767-4075-9b9f-cd6816b091c6.png"
+          avatar="assets/48dfd976-6767-4075-9b9f-cd6816b091c6.png"
           timestamp="05/06/2023 12:50 PM"
           message="that was ONCE 😁"
         />

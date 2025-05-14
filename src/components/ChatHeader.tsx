@@ -24,17 +24,17 @@ const ChatHeader: React.FC<ChatHeaderProps> = ({ className }) => {
       <Search className="text-valorant-gray hover:text-white mr-20"></Search>
 
         <button className="text-valorant-gray hover:text-white">
-          <img src="/assets/pin.svg" alt="pin" />{" "}
+          <img src="assets/pin.svg" alt="pin" />{" "}
         </button>
         <button className="text-valorant-gray hover:text-white">
-          <img src="/assets/message.svg" alt="message" />
+          <img src="assets/message.svg" alt="message" />
         </button>
         <button className="text-valorant-gray hover:text-white">
-          <img src="/assets/bell.svg" alt="bell" />
+          <img src="assets/bell.svg" alt="bell" />
         </button>
         <div className=" rounded-full bg-valorant-green flex items-center justify-center cursor-pointer overflow-hidden">
           <img
-            src="/assets/bulls.svg"
+            src="assets/bulls.svg"
             alt="Profile"
             className="w-full h-full object-cover"
           />

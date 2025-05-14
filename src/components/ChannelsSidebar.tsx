@@ -32,14 +32,14 @@ const ChannelsSidebar: React.FC<ChannelsSidebarProps> = ({ className }) => {
 
 
         <img
-          src="/assets/23c7246d-43c8-4ed5-94d0-2f5b15f1797b.png"
+          src="assets/23c7246d-43c8-4ed5-94d0-2f5b15f1797b.png"
           alt="Valorant Banner"
           className="object-cover w-full h-full"
         />
 
         <div className="absolute top-3 left-4 flex items-center gap-2 z-20">
           <img
-            src="/assets/aa2d811a-2fc4-45cf-ade7-c0f8b517953f.png"
+            src="assets/aa2d811a-2fc4-45cf-ade7-c0f8b517953f.png"
             alt="Logo"
             className="w-6 h-6 rounded-full"
           />
@@ -78,11 +78,11 @@ const ChannelsSidebar: React.FC<ChannelsSidebarProps> = ({ className }) => {
       <hr className="border-0 h-px bg-gradient-to-r from-transparent via-[#3A4754] to-transparent my-3 z-20" />
 
       <button className="flex items-center gap-3 px-4 py-2 hover:bg-[#1A1F2C] transition z-20">
-        <img src="/assets/book.svg" alt="book" className="w-5 h-5" />
+        <img src="assets/book.svg" alt="book" className="w-5 h-5" />
         <span className="text-light-gray">Rules</span>
       </button>
       <button className="flex items-center gap-3 px-4 py-2 hover:bg-[#1A1F2C] transition z-20">
-        <img src="/assets/speaker.svg" alt="speaker" className="w-5 h-5" />
+        <img src="assets/speaker.svg" alt="speaker" className="w-5 h-5" />
         <span className="text-light-gray">Announcements</span>
       </button>
 
@@ -126,7 +126,7 @@ const ChannelsSidebar: React.FC<ChannelsSidebarProps> = ({ className }) => {
                 )}
               >
                 <div className="w-5 h-5 flex items-center justify-center rounded-sm bg-[#1A1F2C]">
-                  <img src="/assets/icon.svg" alt={name} className="w-4 h-4" />
+                  <img src="assets/icon.svg" alt={name} className="w-4 h-4" />
                 </div>
                 <span className={active ? "text-primary-blue" : "text-light-gray"}>
                   {name}
