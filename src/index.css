@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-blue: #99F9EA;
+    --primary-blue-10: #99F9EA1A;
+    --primary-radial-30: #E67E2230;
+    --primary-radial-10: #E67E221A;
+    --background: #081212;
+    --background-60: #08121299;
+    --background-linear-65: #081212A6;
+    --dark-blue: #161D22;
+    --dark-gray: #32383D;
+    --mid-gray: #6D6E6E;
+    --light-gray: #96999E;
+    --pink: #E91E63;
+    --orange: #E67E22;
+    --secondary-radial-12: #E67E2220;
+
+    --foreground: 0 0% 100%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 355 100% 64%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 13% 13%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 223 13% 20%;
+    --muted-foreground: 215 16% 72%;
+
+    --accent: 144 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 64%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 217 19% 27%;
+    --input: 217 19% 27%;
+    --ring: 215 20% 65%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-[#0f1923] text-foreground font-oxanium;
+    background-image: url('/assets/c4577ab6-5c03-4410-8239-f6f7c63b9265.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+.reaction-pill {
+  @apply flex items-center gap-1 bg-[#1A1F2C] px-2 py-1 rounded-full text-sm;
+}
+
+.sidebar-item {
+  @apply flex items-center gap-3 px-4 py-3 hover:bg-[#1A1F2C] transition-colors text-[#C8C8C9] hover:text-white cursor-pointer;
+}
+
+.sidebar-item.active {
+  @apply border-l-2 border-valorant-green text-white;
+}
+
+.user-tag-pink {
+  background: #FF4EDB;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 0.375rem;
+  padding: 0.125rem 0.5rem;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  white-space: nowrap;
+  z-index: 10;
+}
